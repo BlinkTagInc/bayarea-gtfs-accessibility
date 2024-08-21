@@ -1,16 +1,6 @@
-import { ReportTable } from './ReportTable';
+import { ReportTable } from '@/ReportTable';
 
 export default async function Home() {
-  function getCurrentDate() {
-    const date = new Date();
-    const formatter = new Intl.DateTimeFormat('en-US', {
-      month: 'long',
-      day: 'numeric',
-      year: 'numeric',
-    });
-    return formatter.format(date);
-  }
-
   return (
     <>
       <main className="min-h-screen px-3 py-4 md:p-10">
@@ -25,7 +15,6 @@ export default async function Home() {
             </a>{' '}
             published by Caltrans.
           </p>
-          <div className="text-sm text-right">Updated {getCurrentDate()}</div>
         </div>
         <div className="mb-10 max-w-[1200px] mx-auto">
           <ReportTable />
