@@ -8,7 +8,7 @@ import agencies from '@/data/agencies.json';
 
 export const maxDuration = 300; // 5 minutes
 
-export const GET = async (request: Request) => {
+export const GET = async () => {
   const headersList = headers();
   const authorizationHeader = headersList.get('authorization');
 
