@@ -36,6 +36,10 @@
     "url": "http://api.511.org/transit/datafeeds?operator_id=DE&api_key=3521fe85-8498-4ecd-8bc4-3c0e6491e32c"
   },
   {
+    "agency_key": "emeryexpress",
+    "url": "http://api.511.org/transit/datafeeds?operator_id=EE&api_key=3521fe85-8498-4ecd-8bc4-3c0e6491e32c"
+  },
+  {
     "agency_key": "emerygoround",
     "url": "https://emerygoround.com/data/emerygoround-ca-us.zip"
   },
@@ -53,7 +57,7 @@
   },
   {
     "agency_key": "goldengatepark",
-    "url": "https://hosted-gtfs-feeds.s3.amazonaws.com/Golden+Gate+Park+Shuttle/gtfs.zip"
+    "url": "http://api.511.org/transit/datafeeds?operator_id=GP&api_key=3521fe85-8498-4ecd-8bc4-3c0e6491e32c"
   },
   {
     "agency_key": "lavta",
