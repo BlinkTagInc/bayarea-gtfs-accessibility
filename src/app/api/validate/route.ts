@@ -36,8 +36,8 @@ export const GET = async () => {
 
     // Remove API key from gtfsUrl
     const cleanedGtfsUrl = agency.url
-      .replace(/(api_key=)([^&]*)/, '$1[API_KEY]')
-      .replace(/(token=)([^&]*)/, '$1[API_KEY]');
+      .replace(/(api_key=)([^&]*)/, '$1YOUR_API_KEY')
+      .replace(/(token=)([^&]*)/, '$1YOUR_API_KEY');
 
     results.push({
       ...validationResults,

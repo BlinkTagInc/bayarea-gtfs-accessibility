@@ -1,7 +1,7 @@
 [
   {
     "agency_key": "ac",
-    "url": "https://api.actransit.org/transit/gtfs/download?token=2512B81107A09D2DC44895CDDC650D47"
+    "url": "http://api.511.org/transit/datafeeds?operator_id=AC&api_key=3521fe85-8498-4ecd-8bc4-3c0e6491e32c"
   },
   {
     "agency_key": "angelisland",
@@ -13,23 +13,23 @@
   },
   {
     "agency_key": "bart",
-    "url": "https://www.bart.gov/dev/schedules/google_transit.zip"
+    "url": "http://api.511.org/transit/datafeeds?operator_id=BA&api_key=3521fe85-8498-4ecd-8bc4-3c0e6491e32c"
   },
   {
     "agency_key": "caltrain",
-    "url": "https://data.trilliumtransit.com/gtfs/caltrain-ca-us/caltrain-ca-us.zip"
+    "url": "http://api.511.org/transit/datafeeds?operator_id=CT&api_key=3521fe85-8498-4ecd-8bc4-3c0e6491e32c"
   },
   {
     "agency_key": "capitolcorridor",
-    "url": "https://www.capitolcorridor.org/googletransit/GTFS.zip"
+    "url": "http://api.511.org/transit/datafeeds?operator_id=AM&api_key=3521fe85-8498-4ecd-8bc4-3c0e6491e32c"
   },
   {
     "agency_key": "commuteorg",
-    "url": "https://data.trilliumtransit.com/gtfs/commute-ca-us/commute-ca-us.zip"
+    "url": "http://api.511.org/transit/datafeeds?operator_id=CM&api_key=3521fe85-8498-4ecd-8bc4-3c0e6491e32c"
   },
   {
     "agency_key": "countyconnection",
-    "url": "http://cccta.org/GTFS/google_transit.zip"
+    "url": "http://api.511.org/transit/datafeeds?operator_id=CC&api_key=3521fe85-8498-4ecd-8bc4-3c0e6491e32c"
   },
   {
     "agency_key": "dumbartonexpress",
@@ -41,15 +41,15 @@
   },
   {
     "agency_key": "emerygoround",
-    "url": "https://emerygoround.com/data/emerygoround-ca-us.zip"
+    "url": "http://api.511.org/transit/datafeeds?operator_id=EM&api_key=3521fe85-8498-4ecd-8bc4-3c0e6491e32c"
   },
   {
     "agency_key": "fast",
-    "url": "http://data.trilliumtransit.com/gtfs/fairfield-ca-us/fairfield-ca-us.zip"
+    "url": "http://api.511.org/transit/datafeeds?operator_id=FS&api_key=3521fe85-8498-4ecd-8bc4-3c0e6491e32c"
   },
   {
     "agency_key": "goldengate",
-    "url": "https://realtime.goldengate.org/gtfsstatic/GTFSTransitData.zip"
+    "url": "http://api.511.org/transit/datafeeds?operator_id=GG&api_key=3521fe85-8498-4ecd-8bc4-3c0e6491e32c"
   },
   {
     "agency_key": "goldengate_ferry",
@@ -61,44 +61,43 @@
   },
   {
     "agency_key": "lavta",
-    "url": "http://webwatch.lavta.org/TMGTFSRealTimeWebService/GTFS-Static/google_transit.zip"
+    "url": "http://api.511.org/transit/datafeeds?operator_id=WH&api_key=3521fe85-8498-4ecd-8bc4-3c0e6491e32c"
   },
   {
     "agency_key": "marintransit",
-    "url": "https://www.marintransit.org/data/google_transit.zip"
+    "url": "http://api.511.org/transit/datafeeds?operator_id=MA&api_key=3521fe85-8498-4ecd-8bc4-3c0e6491e32c"
   },
   {
     "agency_key": "missionbay",
-    "url": "https://data.trilliumtransit.com/gtfs/missionbaytma-ca-us/missionbaytma-ca-us.zip"
+    "url": "http://api.511.org/transit/datafeeds?operator_id=MB&api_key=3521fe85-8498-4ecd-8bc4-3c0e6491e32c"
   },
   {
     "agency_key": "mvgo",
-    "url": "https://mvgo.org/data/gtfs.zip"
+    "url": "http://api.511.org/transit/datafeeds?operator_id=MV&api_key=3521fe85-8498-4ecd-8bc4-3c0e6491e32c"
   },
   {
     "agency_key": "mvcs",
-    "url": "https://mvcommunityshuttle.com/data/gtfs.zip"
+    "url": "http://api.511.org/transit/datafeeds?operator_id=MC&api_key=3521fe85-8498-4ecd-8bc4-3c0e6491e32c"
   },
   {
     "agency_key": "napa",
-    "url": "https://data.trilliumtransit.com/gtfs/vinetransit-ca-us/vinetransit-ca-us.zip"
+    "url": "http://api.511.org/transit/datafeeds?operator_id=VN&api_key=3521fe85-8498-4ecd-8bc4-3c0e6491e32c"
   },
   {
     "agency_key": "petalumatransit",
-    "url": "http://data.trilliumtransit.com/gtfs/petalumatransit-petaluma-ca-us/petalumatransit-petaluma-ca-us.zip"
+    "url": "http://api.511.org/transit/datafeeds?operator_id=PE&api_key=3521fe85-8498-4ecd-8bc4-3c0e6491e32c"
   },
   {
     "agency_key": "presidiogo",
-    "url": "https://presidiobus.com/gtfs",
-    "exclude": ["directions"]
+    "url": "http://api.511.org/transit/datafeeds?operator_id=PG&api_key=3521fe85-8498-4ecd-8bc4-3c0e6491e32c"
   },
   {
     "agency_key": "riovista",
-    "url": "https://data.trilliumtransit.com/gtfs/riovista-ca-us/riovista-ca-us.zip"
+    "url": "http://api.511.org/transit/datafeeds?operator_id=RV&api_key=3521fe85-8498-4ecd-8bc4-3c0e6491e32c"
   },
   {
     "agency_key": "samtrans",
-    "url": "http://www.samtrans.com/Assets/GTFS/samtrans/st-gtfs.zip"
+    "url": "http://api.511.org/transit/datafeeds?operator_id=SM&api_key=3521fe85-8498-4ecd-8bc4-3c0e6491e32c"
   },
   {
     "agency_key": "santarosa",
@@ -106,7 +105,7 @@
   },
   {
     "agency_key": "sctransit",
-    "url": "https://data.trilliumtransit.com/gtfs/sonomacounty-ca-us/sonomacounty-ca-us.zip"
+    "url": "http://api.511.org/transit/datafeeds?operator_id=SO&api_key=3521fe85-8498-4ecd-8bc4-3c0e6491e32c"
   },
   {
     "agency_key": "sfmta",
@@ -118,11 +117,11 @@
   },
   {
     "agency_key": "smart",
-    "url": "https://data.trilliumtransit.com/gtfs/smart-ca-us/smart-ca-us.zip"
+    "url": "http://api.511.org/transit/datafeeds?operator_id=SA&api_key=3521fe85-8498-4ecd-8bc4-3c0e6491e32c"
   },
   {
     "agency_key": "soltrans",
-    "url": "http://soltrans.connexionz.net/511/gtfs.zip"
+    "url": "http://api.511.org/transit/datafeeds?operator_id=ST&api_key=3521fe85-8498-4ecd-8bc4-3c0e6491e32c"
   },
   {
     "agency_key": "southcity",
@@ -134,7 +133,7 @@
   },
   {
     "agency_key": "tdt",
-    "url": "http://rta.trideltatransit.com/511/gtfs.zip"
+    "url": "http://api.511.org/transit/datafeeds?operator_id=3D&api_key=3521fe85-8498-4ecd-8bc4-3c0e6491e32c"
   },
   {
     "agency_key": "treasureisland",
@@ -142,22 +141,22 @@
   },
   {
     "agency_key": "unioncity",
-    "url": "https://data.trilliumtransit.com/gtfs/unioncity-ca-us/unioncity-ca-us.zip"
+    "url": "http://api.511.org/transit/datafeeds?operator_id=UC&api_key=3521fe85-8498-4ecd-8bc4-3c0e6491e32c"
   },
   {
     "agency_key": "vacaville",
-    "url": "http://data.trilliumtransit.com/gtfs/vacavillecitycoach-ca-us/vacavillecitycoach-ca-us.zip"
+    "url": "http://api.511.org/transit/datafeeds?operator_id=VC&api_key=3521fe85-8498-4ecd-8bc4-3c0e6491e32c"
   },
   {
     "agency_key": "vta",
-    "url": "https://gtfs.vta.org/gtfs_vta.zip"
+    "url": "http://api.511.org/transit/datafeeds?operator_id=SC&api_key=3521fe85-8498-4ecd-8bc4-3c0e6491e32c"
   },
   {
     "agency_key": "westcat",
-    "url": "https://data.trilliumtransit.com/gtfs/westcat-ca-us/westcat-ca-us.zip"
+    "url": "http://api.511.org/transit/datafeeds?operator_id=WC&api_key=3521fe85-8498-4ecd-8bc4-3c0e6491e32c"
   },
   {
     "agency_key": "weta",
-    "url": "https://data.trilliumtransit.com/gtfs/sfbayferry-ca-us/sfbayferry-ca-us.zip"
+    "url": "http://api.511.org/transit/datafeeds?operator_id=SB&api_key=3521fe85-8498-4ecd-8bc4-3c0e6491e32c"
   }
 ]
