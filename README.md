@@ -1,4 +1,4 @@
-The Bay Area GTFS Accessibility site validates the accessibility fields of all 38 Bay Area transit agencies.
+The Bay Area GTFS Accessibility site validates the accessibility fields of all 40 Bay Area transit agencies.
 
 It checks for:
 

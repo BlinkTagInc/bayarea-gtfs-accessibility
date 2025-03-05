@@ -9,7 +9,7 @@ export default async function Home() {
             Bay Area GTFS Accessibility Report
           </h1>
           <p className="leading-tight text-center">
-            An audit of 38 San Francisco Bay Area Transit Agencies using the{' '}
+            An audit of 40 San Francisco Bay Area Transit Agencies using the{' '}
             <a href="https://dot.ca.gov/cal-itp/california-transit-data-guidelines-v3_0#section-checklist">
               California Transit Data Guidelines
             </a>{' '}

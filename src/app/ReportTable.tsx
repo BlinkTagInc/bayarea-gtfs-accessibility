@@ -30,6 +30,22 @@ export const ReportTable = async () => {
     year: 'numeric',
   });
 
+  // 511.org agencies have levels or pathways as part of the regional feed
+  for (const result of results) {
+    if (result.gtfs_url.includes('api.511.org')) {
+      const levelsStat = result.stats.find((stat) => stat.id === 'hasLevels');
+      const pathwaysStat = result.stats.find(
+        (stat) => stat.id === 'hasPathways',
+      );
+      if (levelsStat) {
+        levelsStat.status = 'pass';
+      }
+      if (pathwaysStat) {
+        pathwaysStat.status = 'pass';
+      }
+    }
+  }
+
   return (
     <>
       <div>
@@ -118,15 +134,23 @@ export const ReportTable = async () => {
                 </td>
                 <td>
                   {result.stats.find((stat) => stat.id === 'hasLevels')
-                    ?.status == 'pass'
-                    ? '✅'
-                    : '❌'}
+                    ?.status == 'pass' ? (
+                    <span title="levels.txt is present in the 511.org regional feed">
+                      ✅
+                    </span>
+                  ) : (
+                    '❌'
+                  )}
                 </td>
                 <td>
                   {result.stats.find((stat) => stat.id === 'hasPathways')
-                    ?.status == 'pass'
-                    ? '✅'
-                    : '❌'}
+                    ?.status == 'pass' ? (
+                    <span title="pathways.txt is present in the 511.org regional feed">
+                      ✅
+                    </span>
+                  ) : (
+                    '❌'
+                  )}
                 </td>
                 <td>
                   {routeColorContrastIsValid?.status == 'pass' ? (
