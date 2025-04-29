@@ -53,6 +53,7 @@ export const GET = async () => {
       access: 'public',
       addRandomSuffix: false,
       cacheControlMaxAge: 0, // 1 hour
+      allowOverwrite: true,
     },
   );
 
