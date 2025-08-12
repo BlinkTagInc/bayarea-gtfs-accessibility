@@ -12,25 +12,25 @@
   "dependencies": {
     "@vercel/analytics": "^1.5.0",
     "@vercel/blob": "^1.1.1",
-    "gtfs-accessibility-validator": "^0.3.2",
+    "gtfs-accessibility-validator": "^0.3.3",
     "lodash": "^4.17.21",
-    "next": "15.3.4",
+    "next": "15.4.6",
     "react": "^19",
     "react-dom": "^19"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.1.10",
-    "@types/lodash": "^4.17.18",
+    "@tailwindcss/postcss": "^4.1.11",
+    "@types/lodash": "^4.17.20",
     "@types/node": "^24",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "15.3.4",
+    "eslint-config-next": "15.4.6",
     "husky": "^9.1.7",
-    "lint-staged": "^16.1.2",
+    "lint-staged": "^16.1.5",
     "postcss": "^8",
-    "prettier": "^3.6.0",
-    "tailwindcss": "^4.1.10",
+    "prettier": "^3.6.2",
+    "tailwindcss": "^4.1.11",
     "typescript": "^5"
   },
   "prettier": {
