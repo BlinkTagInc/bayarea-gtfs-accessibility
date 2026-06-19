@@ -100,6 +100,10 @@
     "url": "http://api.511.org/transit/datafeeds?operator_id=SM&api_key=3521fe85-8498-4ecd-8bc4-3c0e6491e32c"
   },
   {
+    "agencyKey": "sanleandro",
+    "url": "http://api.511.org/transit/datafeeds?operator_id=SL&api_key=3521fe85-8498-4ecd-8bc4-3c0e6491e32c"
+  },
+  {
     "agency_key": "santarosa",
     "url": "http://api.511.org/transit/datafeeds?operator_id=SR&api_key=3521fe85-8498-4ecd-8bc4-3c0e6491e32c"
   },
