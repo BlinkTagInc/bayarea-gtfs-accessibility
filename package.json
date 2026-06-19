@@ -33,6 +33,7 @@
     "tailwindcss": "^4.3.0",
     "typescript": "^6"
   },
+  "packageManager": "pnpm@11.6.0",
   "prettier": {
     "singleQuote": true
   },
