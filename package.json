@@ -11,10 +11,10 @@
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",
-    "@vercel/blob": "^2.6.1",
+    "@vercel/blob": "^2.8.0",
     "gtfs-accessibility-validator": "^0.3.7",
     "lodash": "^4.18.1",
-    "next": "16.3.0",
+    "next": "16.3.1",
     "react": "^19",
     "react-dom": "^19"
   },
@@ -25,7 +25,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^10",
-    "eslint-config-next": "16.3.0",
+    "eslint-config-next": "16.3.1",
     "husky": "^9.1.7",
     "lint-staged": "^17.3.0",
     "postcss": "^8",
@@ -33,7 +33,7 @@
     "tailwindcss": "^4.3.3",
     "typescript": "^7"
   },
-  "packageManager": "pnpm@11.20.0",
+  "packageManager": "pnpm@11.22.0",
   "prettier": {
     "singleQuote": true
   },
