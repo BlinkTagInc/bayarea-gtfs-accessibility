@@ -30,7 +30,7 @@ export const GET = async () => {
   for (const agency of agencies) {
     const validationResults = await gtfsAccessibilityValidator({
       gtfsUrl: agency.url,
-      verbose: false,
+      logLevel: 'silent',
       ignoreDuplicates: true,
     });
 
