@@ -14,7 +14,7 @@
     "@vercel/blob": "^2.8.0",
     "gtfs-accessibility-validator": "^0.3.8",
     "lodash": "^4.18.1",
-    "next": "16.3.4",
+    "next": "16.3.6",
     "react": "^19",
     "react-dom": "^19"
   },
@@ -25,15 +25,15 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^10",
-    "eslint-config-next": "16.3.4",
+    "eslint-config-next": "16.3.6",
     "husky": "^9.1.7",
     "lint-staged": "^17.5.1",
     "postcss": "^8",
-    "prettier": "^3.9.6",
+    "prettier": "^3.9.8",
     "tailwindcss": "^4.3.3",
     "typescript": "^7"
   },
-  "packageManager": "pnpm@12.3.4",
+  "packageManager": "pnpm@12.5.1",
   "prettier": {
     "singleQuote": true
   },
