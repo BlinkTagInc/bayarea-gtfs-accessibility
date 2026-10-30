@@ -14,18 +14,18 @@
     "@vercel/blob": "^2.8.2",
     "gtfs-accessibility-validator": "^0.3.8",
     "lodash": "^4.18.1",
-    "next": "16.4.1",
+    "next": "16.4.3",
     "react": "^19",
     "react-dom": "^19"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.3.3",
-    "@types/lodash": "^4.17.26",
+    "@types/lodash": "^4.17.27",
     "@types/node": "^26",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^10",
-    "eslint-config-next": "16.4.1",
+    "eslint-config-next": "16.4.3",
     "husky": "^9.1.7",
     "lint-staged": "^17.6.0",
     "postcss": "^8",
@@ -33,7 +33,7 @@
     "tailwindcss": "^4.3.3",
     "typescript": "^7"
   },
-  "packageManager": "pnpm@12.11.2",
+  "packageManager": "pnpm@12.16.1",
   "prettier": {
     "singleQuote": true
   },
